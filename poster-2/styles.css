@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*You can use any kind of background here.*/
+  background: #212121;
+  width: 100%;
+  background-image: url("cards.png");
+  background-size: 100%;
+}
+
+canvas {
+  display: block;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hidden{
+  display: none;
+}
+
+.text-names {
+  top: 0px;
+  left: 25%;
+  width: 50%;
+  position: relative;
+
+}
+
+.mamba {
+  top: 100px;
+  left: 7%;
+  width: 50%;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  color: #ffdd00;
+}
+
+.bron {
+  top: 100px;
+  left: 67%;
+  width: 50%;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  color: #FFB81C;
+}
+
+#content {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 31%;
+  color: silver;
+  font-family: 'Padauk', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  display: block;
+  width: 100%;
+  border: none;
+  z-index: -3;
+}
+/*.buttons {
+  position: relative;
+  left: 50%;
+  top: 70%;
+  width: 20%;
+  height: 30%;
+}*/
+
+button {
+  padding: none;
+  z-index: -3;
+  width: 50px;
+    height: 50px;
+    background: #ffdd00;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+#stopButton {
+/*    top: 0px;
+    left: 0px;*/
+    width: 50px;
+    background-repeat:no-repeat;
+    z-index: -3;
+    background: #FFB81C;
+/*    position: fixed;*/
+}
+
+#startButton {
+/*    top: 0px;
+    left: 31.5%;*/
+    width: 50px;
+    background-repeat:no-repeat;
+    z-index: -3;
+/*    position: fixed;*/
+ 
+}
+
+.stop {
+    top: 30%;
+    left: 60%;
+    width: 50px;
+    z-index: 2;
+    position: absolute;
+}
+
+.start {
+    top: 0%;
+    left: 0px;
+    width: 50px;
+    z-index: 2;
+    position: absolute;
+}

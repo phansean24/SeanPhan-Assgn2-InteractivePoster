@@ -1,0 +1,148 @@
+
+body {
+	background-color: #1A1A1A;
+	font-family: 'Padauk', sans-serif;
+}
+h1 {
+	font-size: 75pt;
+	font-family: 'Padauk', sans-serif;
+	margin: 0px;
+	height: 100px;
+	color: yellow;
+	margin-left: 25px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20pt;
+	font-family: 'Padauk', sans-serif;
+	color: yellow;
+	margin-left: 25px;
+	margin-top: 50px;
+}
+
+p {
+	color: #F2F2F2;
+	font-size: 12pt;
+	font-family: 'Padauk', sans-serif;
+	width: 50%;
+}
+.hidden {
+	display: none;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#bg-image {
+	width: 100%;
+	position: fixed;
+}
+
+.bg {
+	width: 100%;
+	height: 100%;
+}
+
+/*.zlatan-one {
+	width: 80%;
+	top: 100px;
+	left: 25%;
+	z-index: -1;
+	position: absolute;
+}
+
+.zlatan-two {
+	width: 80%;
+	margin-top: 100px;
+	z-index: 0;
+	top: -25px;
+	left: 25%;
+	position: absolute;
+}
+
+.zlatan-three {
+	width: 80%;
+	margin-top: 100px;
+	z-index: 1;
+	top: -100px;
+	left: 25%;
+	position: absolute;
+}
+
+#z-one, #z-two, #z-three {
+	width: 100%;
+}*/
+
+#ball {
+	width: 75px;
+	height: 75px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 75%;
+	right: 30%;
+	z-index: 2;
+	position: fixed;
+	cursor: move;
+}
+
+#ball1 {
+	width: 50px;
+	height: 50px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 65%;
+	right: 50%;
+	z-index: 2;
+	position: fixed;
+	cursor: move;
+}
+
+#ball2 {
+	width: 75px;
+	height: 75px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 40%;
+	right: 60%;
+	z-index: 2;
+	position: fixed;
+	cursor: move;
+}
+
+#ball3 {
+	width: 50px;
+	height: 50px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 45%;
+	right: 20%;
+	z-index: 2;
+	position: fixed;
+	cursor: move;
+}
+
+
+#ball4 {
+	width: 50px;
+	height: 50px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 25%;
+	right: 50%;
+	z-index: 2;
+	position: fixed;
+	cursor: move;
+}
